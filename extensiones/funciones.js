@@ -1,6 +1,44 @@
 
 
-
+const database = {
+    empleados:[
+        {
+            id : 1,
+            nombre: "marcos",
+            profesion : "programador",
+            pais : "uruguay"
+        },
+        {
+            id : 2,
+            nombre: "raul",
+            profesion : "mecanico",
+            pais : "venezuela"
+        },
+        {
+            id : 3,
+            nombre: "juan",
+            profesion : "carpintero",
+            pais : "chile"
+        }
+    ],
+    sueldos: [
+        {
+            id:1,
+            profesion: "programador",
+            sueldo : "1.300.000"
+        },
+        {
+            id:2,
+            profesion: "carpintero",
+            sueldo : "300.000"
+        },
+        {
+            id:3,
+            profesion: "mecanico",
+            sueldo : "600.000"
+        }
+    ]
+}
 const getEmpleado = (id)=>{
     const empleado = database.empleados.find(e=> e.id === id);
     const promesa = new Promise ((resolve, reject)=>{
