@@ -1,0 +1,3 @@
+el empleado marcos, de profesion programador tiene un sueldo de 1.300.000
+el empleado raul, de profesion mecanico tiene un sueldo de 600.000
+el empleado juan, de profesion carpintero tiene un sueldo de 300.000
